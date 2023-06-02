@@ -1,0 +1,20 @@
+packages: .
+
+repository cabal-repo-override-example
+  url: https://amesgen.github.io/cabal-repo-override-example/
+  secure: True
+  root-keys:
+    11ccefa3eb73f12e3f7d002a1c6bb7ef173b4eb4ea91322e66763981da0ec6de
+    85b030eef0bc4a4a85128e5bc67ef279b2ad99d00ace9f5a50b9c8565568266d
+    ac6b1e9c5f6ecb93d4ca13820916164d60dba2deeeaafb5604a54edf640b07ce
+  key-threshold: 3
+
+index-state:
+  , hackage.haskell.org 2023-06-02T14:54:08Z
+  , cabal-repo-override-example 2023-06-02T18:05:25Z
+
+active-repositories:
+  , hackage.haskell.org
+  , cabal-repo-override-example:override
+
+allow-newer: tagged:template-haskell
