@@ -11,7 +11,7 @@ repository cabal-repo-override-example
 
 index-state:
   , hackage.haskell.org 2023-06-02T14:54:08Z
-  , cabal-repo-override-example 2023-06-02T18:05:25Z
+  , cabal-repo-override-example 2023-06-02T18:37:52Z
 
 active-repositories:
   , hackage.haskell.org
